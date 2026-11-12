@@ -1,0 +1,30 @@
+{
+  "name": "@manuscripta-exhibition/viewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@atlas-viewer/atlas": "3.2.3",
+    "@iiif/helpers": "1.5.4",
+    "exhibition-viewer": "1.0.14",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-iiif-vault": "2.0.5",
+    "react-reconciler": "0.33.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  },
+  "overrides": {
+    "exhibition-viewer": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+// Interface texts. Exhibition content comes from the IIIF manifests.
+export const LANGUAGES = ["sv", "en"];
+
+export const strings = {
+  sv: {
+    siteTitle: "Utställningar",
+    siteOwner: "manuscripta.se",
+    intro: "Utställningar med medeltida handskrifter ur svenska samlingar. Bilderna kommer direkt från manuscripta.se.",
+    loading: "Laddar …",
+    loadFailed: "Utställningen kunde inte laddas.",
+    listFailed: "Utställningarna kunde inte laddas.",
+    empty: "Det finns inga publicerade utställningar ännu.",
+    back: "Alla utställningar",
+    open: "Öppna utställningen",
+    modes: { grid: "Utställning", slideshow: "Bildspel", presentation: "Visning" },
+    modeLabel: "Visningsläge",
+    language: "Language: English",
+    exhibition: "Utställning",
+    tableOfContents: "Innehåll",
+    iiif: "IIIF-manifest",
+    previewBanner: "Förhandsgranskning av ett utkast – inte publicerat",
+    previewWaiting: "Väntar på utkastet från redigeraren …",
+  },
+  en: {
+    siteTitle: "Exhibitions",
+    siteOwner: "manuscripta.se",
+    intro: "Exhibitions of medieval manuscripts in Swedish collections. The images come straight from manuscripta.se.",
+    loading: "Loading …",
+    loadFailed: "The exhibition could not be loaded.",
+    listFailed: "The exhibitions could not be loaded.",
+    empty: "There are no published exhibitions yet.",
+    back: "All exhibitions",
+    open: "Open the exhibition",
+    modes: { grid: "Exhibition", slideshow: "Slideshow", presentation: "Presentation" },
+    modeLabel: "View mode",
+    language: "Språk: svenska",
+    exhibition: "Exhibition",
+    tableOfContents: "Contents",
+    iiif: "IIIF manifest",
+    previewBanner: "Preview of a draft – not published",
+    previewWaiting: "Waiting for the draft from the editor …",
+  },
+};

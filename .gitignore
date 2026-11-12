@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+viewer/public/iiif/
+test-results/
+playwright-report/
+
+# Local notes, not committed
+*.local.md

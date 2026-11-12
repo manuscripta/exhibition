@@ -1,0 +1,893 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://exhibition.invalid/ur-samlingarna/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "sv": [
+      "Ur manuscriptas samlingar"
+    ],
+    "en": [
+      "From the manuscripta collections"
+    ]
+  },
+  "summary": {
+    "sv": [
+      "Exempelutställning med fyra medeltida handskrifter."
+    ],
+    "en": [
+      "Sample exhibition with four medieval manuscripts."
+    ]
+  },
+  "behavior": [
+    "exhibition"
+  ],
+  "items": [
+    {
+      "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2",
+      "type": "Canvas",
+      "label": {
+        "sv": [
+          "Om utställningen"
+        ],
+        "en": [
+          "About the exhibition"
+        ]
+      },
+      "behavior": [
+        "w-4",
+        "h-4",
+        "info"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "items": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2/annotation-page/000002a1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2/annotation/000003a1b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "language": "sv",
+                  "format": "text/html",
+                  "value": "<p>Ett urval medeltida handskrifter ur svenska samlingar, digitaliserade och beskrivna på manuscripta.se.</p>"
+                },
+                {
+                  "type": "TextualBody",
+                  "language": "en",
+                  "format": "text/html",
+                  "value": "<p>A selection of medieval manuscripts in Swedish collections, digitised and described on manuscripta.se.</p>"
+                }
+              ],
+              "target": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2",
+                  "type": "Canvas"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2/annotation-page/000004a1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2/annotation/000005a1b2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "language": "sv",
+                  "format": "text/html",
+                  "value": "<p>Utställningen är ett exempel som visar hur utställningsverktyget fungerar. Bilderna hämtas direkt från manuscripta.se och kan förstoras i full upplösning. Varje bild länkar till hela handskriften.</p>"
+                },
+                {
+                  "type": "TextualBody",
+                  "language": "en",
+                  "format": "text/html",
+                  "value": "<p>This exhibition is a sample showing how the exhibition tool works. The images are loaded straight from manuscripta.se and can be zoomed to full resolution. Each image links to the whole manuscript.</p>"
+                }
+              ],
+              "target": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://exhibition.invalid/ur-samlingarna/canvas/000001a1b2",
+                  "type": "Canvas"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2",
+      "type": "Canvas",
+      "label": {
+        "sv": [
+          "Codex Gigas: djävulsbilden"
+        ],
+        "en": [
+          "Codex Gigas: the devil"
+        ]
+      },
+      "summary": {
+        "sv": [
+          "<p>Codex Gigas, ”Djävulsbibeln”, är en av världens största medeltida handskrifter. Den skrevs i Böhmen i början av 1200-talet och kom till Sverige som krigsbyte 1648.</p>"
+        ],
+        "en": [
+          "<p>Codex Gigas, the “Devil’s Bible”, is one of the largest surviving medieval manuscripts. It was written in Bohemia in the early 13th century and came to Sweden as war booty in 1648.</p>"
+        ]
+      },
+      "behavior": [
+        "w-12",
+        "h-8",
+        "left"
+      ],
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "National Library of Sweden (Photographer: Per B. Adolphson)"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/licenses/by/4.0/",
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "National Library of Sweden"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "A 148"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Codex Gigas"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "between 1204 and 1230"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Parchment"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "309, i´ ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Latin"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://www.manuscripta.se/iiif/100500/manifest.json",
+          "type": "Manifest",
+          "label": {
+            "none": [
+              "National Library of Sweden, A 148"
+            ]
+          }
+        }
+      ],
+      "width": 6180,
+      "height": 10400,
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100500/ms-100500_0577.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100500/ms-100500_0577.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2/annotation-page/000009a1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2/annotation/000007a1b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2",
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100500/ms-100500_0577.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 10400,
+                "width": 6180,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100500/ms-100500_0577.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2/annotation-page/000008a1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2/annotation-page/000008a1b2/annotation/00000aa1b2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "sv": [
+                  "Djävulen"
+                ],
+                "en": [
+                  "The devil"
+                ]
+              },
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "language": "sv",
+                  "format": "text/html",
+                  "value": "<p>Den helsidesstora djävulsfiguren har gett handskriften dess smeknamn.</p>"
+                },
+                {
+                  "type": "TextualBody",
+                  "language": "en",
+                  "format": "text/html",
+                  "value": "<p>The full-page figure of the devil gave the manuscript its nickname.</p>"
+                }
+              ],
+              "target": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://exhibition.invalid/ur-samlingarna/canvas/000006a1b2",
+                  "type": "Canvas"
+                },
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1400,2400,3400,5200"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ba1b2",
+      "type": "Canvas",
+      "label": {
+        "sv": [
+          "Hälsingelagen"
+        ],
+        "en": [
+          "The Hälsinge Law"
+        ]
+      },
+      "summary": {
+        "sv": [
+          "<p>Hälsingelagen, en av de medeltida svenska landskapslagarna, i en handskrift från 1300-talet.</p>"
+        ],
+        "en": [
+          "<p>The Hälsinge Law, one of the medieval Swedish provincial laws, in a 14th-century manuscript.</p>"
+        ]
+      },
+      "behavior": [
+        "w-6",
+        "h-8",
+        "bottom"
+      ],
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "Uppsala universitetsbibliotek"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "Uppsala universitetsbibliotek"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "B 49"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Hälsingelagen"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1325-1375 (efter 1320)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Parchment"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "79 ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Old Swedish"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://www.manuscripta.se/iiif/100392/manifest.json",
+          "type": "Manifest",
+          "label": {
+            "none": [
+              "Uppsala universitetsbibliotek, B 49"
+            ]
+          }
+        }
+      ],
+      "width": 2764,
+      "height": 3368,
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100392/uub-b-049_0003_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100392/uub-b-049_0003_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ba1b2/annotation-page/00000ea1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ba1b2/annotation/00000ca1b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/ur-samlingarna/canvas/00000ba1b2",
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100392/uub-b-049_0003_001r.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3368,
+                "width": 2764,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100392/uub-b-049_0003_001r.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ba1b2/annotation-page/00000da1b2",
+          "type": "AnnotationPage",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000fa1b2",
+      "type": "Canvas",
+      "label": {
+        "sv": [
+          "Birgittas uppenbarelser"
+        ],
+        "en": [
+          "The Revelations of St Birgitta"
+        ]
+      },
+      "summary": {
+        "sv": [
+          "<p>Heliga Birgittas uppenbarelser i fornsvensk översättning, från 1400-talet.</p>"
+        ],
+        "en": [
+          "<p>St Birgitta’s revelations in an Old Swedish translation, 15th century.</p>"
+        ]
+      },
+      "behavior": [
+        "w-6",
+        "h-8",
+        "bottom"
+      ],
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "Kungliga biblioteket"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "Kungliga biblioteket"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "A 5 a"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Birgitta, Uppenbarelser"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1400-1500 (1420-1440)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Parchment"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "249 ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Old Swedish"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://www.manuscripta.se/iiif/100205/manifest.json",
+          "type": "Manifest",
+          "label": {
+            "none": [
+              "Kungliga biblioteket, A 5 a"
+            ]
+          }
+        }
+      ],
+      "width": 2972,
+      "height": 3745,
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100205/kb-a-005a_0003_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100205/kb-a-005a_0003_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000fa1b2/annotation-page/00000ia1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000fa1b2/annotation/00000ga1b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/ur-samlingarna/canvas/00000fa1b2",
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100205/kb-a-005a_0003_001r.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3745,
+                "width": 2972,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100205/kb-a-005a_0003_001r.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000fa1b2/annotation-page/00000ha1b2",
+          "type": "AnnotationPage",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ja1b2",
+      "type": "Canvas",
+      "label": {
+        "sv": [
+          "Jungfru Marias klagan, skriven med runor"
+        ],
+        "en": [
+          "The Lament of the Virgin Mary, in runes"
+        ]
+      },
+      "summary": {
+        "sv": [
+          "<p>En text på fornsvenska skriven med runor i en medeltida handskrift, tidigare i Vallentuna kyrka.</p>"
+        ],
+        "en": [
+          "<p>An Old Swedish text written in runes in a medieval manuscript, formerly in Vallentuna church.</p>"
+        ]
+      },
+      "behavior": [
+        "w-12",
+        "h-8",
+        "right"
+      ],
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "Kungliga biblioteket"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "Kungliga biblioteket"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "A 120"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Jungfru Marias klagan vid korset (runor) (f.d. Vallentuna kyrka)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1300-1325 e. 1400-1425"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Mixed"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "6 ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Old Danish"
+            ]
+          }
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://www.manuscripta.se/iiif/100248/manifest.json",
+          "type": "Manifest",
+          "label": {
+            "none": [
+              "Kungliga biblioteket, A 120"
+            ]
+          }
+        }
+      ],
+      "width": 1965,
+      "height": 2515,
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100248/ms-100248_0009.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100248/ms-100248_0009.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ja1b2/annotation-page/00000ma1b2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ja1b2/annotation/00000ka1b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/ur-samlingarna/canvas/00000ja1b2",
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100248/ms-100248_0009.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2515,
+                "width": 1965,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100248/ms-100248_0009.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/ur-samlingarna/canvas/00000ja1b2/annotation-page/00000la1b2",
+          "type": "AnnotationPage",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

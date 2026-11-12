@@ -1,0 +1,6661 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.manuscripta.se/iiif/collection.json",
+  "type": "Collection",
+  "label": {
+    "sv": [
+      "Handskrifter på manuscripta.se"
+    ],
+    "en": [
+      "Manuscripts on manuscripta.se"
+    ]
+  },
+  "summary": {
+    "sv": [
+      "249 handskrifter med digitaliserade bilder."
+    ],
+    "en": [
+      "249 manuscripts with digitised images."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://www.manuscripta.se/iiif/100079/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Gothenburg University Library, Gr. 1: Dionysius Periegeta, Orbis descriptio; Eustathius Thessalonicensis, Commentarius in Dionysium Periegetem"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th c., 14th/15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100079%2Fgub-gr-001_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100079%2Fgub-gr-001_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100080/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Gothenburg University Library, Gr. 2 Mut. Alfa. U. 2. 14: Pauline Epistles"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100080%2Fgub-gr-002_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100080%2Fgub-gr-002_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100081/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Gothenburg University Library, Gr. 3: Lectionary of Acts and Epistles"
+        ]
+      },
+      "summary": {
+        "none": [
+          "Early 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100081%2Fgub-gr-003_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100081%2Fgub-gr-003_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100082/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Gothenburg University Library, Gr. 4: Lives of female saints"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100082%2Fgub-gr-004_0001_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100082%2Fgub-gr-004_0001_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100201/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 1: Utläggningar och översättningar av den heliga Skrift (Moseböckerna, Pentateukparafrasen)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1526"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100201%2Fkb-a-001_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100201%2Fkb-a-001_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100203/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 3: Vår Herres pinobok: Bordsläsningar för Vadstena nunnekonvent. (Pseudo-Bonaventura, Betraktelser över Kristi levnad (Meditationes vitæ Christi))"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1502"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100203%2Fms-100203_0000.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100203%2Fms-100203_0000.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100205/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 5 a: Birgitta, Uppenbarelser"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500 (1420-1440)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100205%2Fkb-a-005a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100205%2Fkb-a-005a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100206/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 5 b: Birgitta, Uppenbarelser"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1450 (före 1452)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100206%2Fms-100206_0000.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100206%2Fms-100206_0000.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100207/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 5 c: Henrik Tidemansson, Goda råd givna Vadstena kloster 1495"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1495"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100207%2Fms-100207_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100207%2Fms-100207_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100209/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 9: Thomas de Froidment (Pseudo-Bernhard av Clairvaux), Om gudeligt leverne (Modus bene vivendi). m.m.,"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1498-1502"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100209%2Fms-100209_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100209%2Fms-100209_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100211/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 12: Petrus Olavi, Jungfru Marie örtagård"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1510"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100211%2Fms-100211_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100211%2Fms-100211_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100212/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 13: Hel. Mechtilds uppenbarelser"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1490-1500 (före 1502)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100212%2Fms-100212_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100212%2Fms-100212_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100214/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 24: Vadstena klosterregel 1451"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1451-1452"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100214%2Fms-100214_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100214%2Fms-100214_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100215/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 27: Postilla. Om Guds pina. m.m. [Samlingsband med verk av Birgitta, Bernhard, Suso]"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1450-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100215%2Fkb-a-027_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100215%2Fkb-a-027_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100218/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 33: H. Birgittas levnad. Birgitta, Uppenbarelser I-III"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100218%2Fms-100218_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100218%2Fms-100218_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100223/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 43: Horarium med böner på svenska (Ingegärd Ambjörnsdotters bönbok)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1501-1527"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100223%2Fkb-a-043_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100223%2Fkb-a-043_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100224/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 44: Birgitta, Uppenbarelser, bok 8, kap. 8-56"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100224%2Fms-100224_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100224%2Fms-100224_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100225/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 49: Samlingsband. Nådendals klosterbok (Ansgars levnad. Legender. Böner. Örtabok.)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100225%2Fms-100225_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100225%2Fms-100225_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100226/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 54: Legenda sanctorum (Helgonlegender)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1410-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100226%2Fms-100226_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100226%2Fms-100226_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100227/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 57: Statuta episcoporum regni Sueciæ, eller åtskilliga Sveriges biskopars stadgar och kyrkordningar"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100227%2Fms-100227_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100227%2Fms-100227_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100228/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 58: Jöns Buddes bok"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1487-1491"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100228%2Fms-100228_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100228%2Fms-100228_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100239/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 108: Själens tröst (Siælinna Thröst). Del 1."
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1450 (1438-1442)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100239%2Fkb-a-108_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100239%2Fkb-a-108_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100240/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 110: Birgitta, Ängelns predikan. Järteckensbok (Codex Oxenstiernianus)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1385 och senare"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100240%2Fkb-a-110_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100240%2Fkb-a-110_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100241/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 111: Samlingar av predikningar (Järteckenspostilla)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100241%2Fms-100241_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100241%2Fms-100241_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100248/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, A 120: Jungfru Marias klagan vid korset (runor) (f.d. Vallentuna kyrka)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1325 e. 1400-1425"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100248%2Fms-100248_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100248%2Fms-100248_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100255/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 3: Magnus Erikssons landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1488"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100255%2Fms-100255_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100255%2Fms-100255_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100258/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 5 b: Magnus Erikssons landslag och stadslag. Södermannalagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1350-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100258%2Fms-100258_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100258%2Fms-100258_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100259/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 6: Magnus Erikssons landslag med balkar ur Yngre Västgötalagen"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1375-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100259%2Fms-100259_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100259%2Fms-100259_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100266/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 13: Magnus Erikssons landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1439"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100266%2Fms-100266_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100266%2Fms-100266_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100269/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 16: Magnus Erikssons landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1510-1530] (SGL 1450-1500)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100269%2Fms-100269_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100269%2Fms-100269_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100277/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 32: Kristoffers landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1440-1443] (SGL 1500-1525); senare tillägg i början och slutet"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100277%2Fms-100277_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100277%2Fms-100277_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100279/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 34: Kristoffers landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1442-1443]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100279%2Fms-100279_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100279%2Fms-100279_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100280/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 35: Kristoffers landslag. Yngre Västgötalagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1470-1490]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100280%2Fms-100280_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100280%2Fms-100280_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100281/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 36: Kristoffers landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1441-1442]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100281%2Fms-100281_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100281%2Fms-100281_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100282/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 40: Kristoffers landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1440-1443], [c. 1535]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100282%2Fms-100282_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100282%2Fms-100282_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100283/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 42: Kristoffers landslag. Södermannalagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1486]?; tillägg efter 1590"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100283%2Fms-100283_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100283%2Fms-100283_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100287/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 47: Magnus Erikssons stadslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1410-1440]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100287%2Fms-100287_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100287%2Fms-100287_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100288/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 48: Magnus Erikssons stadslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1410-1430]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100288%2Fms-100288_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100288%2Fms-100288_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100298/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 59: Äldre Västgötalagen"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1280-1330"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100298%2Fms-100298_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100298%2Fms-100298_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100300/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 107: Magnus Erikssons landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1388"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100300%2Fms-100300_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100300%2Fms-100300_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100303/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 120: Sammanställning av delar av Kristoffers landslag, Magnus Erikssons landslag och Yngre Västgötalagen"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[c. 1464], [c. 1474-1475]"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100303%2Fms-100303_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100303%2Fms-100303_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100308/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 127: Magnus Erikssons stadslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1375-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100308%2Fms-100308_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100308%2Fms-100308_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100310/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 134: Magnus Erikssons stadslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1406-1409] (SGL 1500-1525)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100310%2Fms-100310_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100310%2Fms-100310_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100311/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 137: Magnus Erikssons stadslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "[1470-1520] (SGL 1500-1525)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100311%2Fms-100311_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100311%2Fms-100311_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100314/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 152: Magnus Eriksson landslag. Södermannalagens kyrkobalk. Codex Vikstad"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1459"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100314%2Fms-100314_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100314%2Fms-100314_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100317/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 161: Magnus Erikssons landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1513"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100317%2Fms-100317_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100317%2Fms-100317_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100318/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 162: Kristoffers landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1446, med tillägg c. 1530-1560"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100318%2Fms-100318_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100318%2Fms-100318_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100319/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 168: Magnus Erikssons landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1429"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100319%2Fms-100319_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100319%2Fms-100319_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100320/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 170: Magnus Erikssons stadslag. Söderköpings lagbok"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1387"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100320%2Fms-100320_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100320%2Fms-100320_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100321/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 172: Magnus Erikssons landslag. Upplandslagens kyrkobalk. F.d. Kalmar, Codex Aboensis"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1425-1475 (1420-1440)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100321%2Fms-100321_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100321%2Fms-100321_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100332/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 193: Äldre Västgötalagen, fragment"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1275-1300"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100332%2Fms-100332_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100332%2Fms-100332_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100342/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 594: Dragare Skråån"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1502-1503"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100342%2Fms-100342_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100342%2Fms-100342_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100344/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 601: Murmästarnes Skrå 1487, med tilläggspunkter stadfästa av magistraten 1601"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1487"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100344%2Fms-100344_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100344%2Fms-100344_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100345/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, B 607: Skråordning för skräddarna i Stockholm 1501"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1501"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100345%2Fms-100345_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100345%2Fms-100345_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100346/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, D 2: Spegelbergs bok. Gamla äventyr och krönikor"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500, 1523?"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100346%2Fms-100346_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100346%2Fms-100346_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100348/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, D 3 a: Historia Trojana eller Troijaborgs Chrönika"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1529"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100348%2Fms-100348_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100348%2Fms-100348_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100347/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, D 3: Fru Elins bok. Gamla äventyr och krönikor"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1488"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100347%2Fms-100347_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100347%2Fms-100347_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100350/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, D 4 a: Rimmade romaner och krönikor (Codex Verelianus, Fru Märetas bok)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1448, 1449-1463"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100350%2Fms-100350_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100350%2Fms-100350_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100352/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, D 6: Den gamla och vidlyftiga rimkrönikan"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1452"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100352%2Fms-100352_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100352%2Fms-100352_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100357/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, X 501: Peder Månssons Liber A"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1514, 1522"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100357%2Fms-100357_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100357%2Fms-100357_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100358/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Kungliga biblioteket, X 502: Peder Månssons Liber B"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1516, 1519"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100358%2Fms-100358_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100358%2Fms-100358_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100090/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 1: Conjectures on Ammonius, De adfinium vocabulorum differentia"
+        ]
+      },
+      "summary": {
+        "none": [
+          "first decade of the 18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100090%2Flsb-kl-f-001_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100090%2Flsb-kl-f-001_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100091/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 2: Anacreon, Odae"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1809"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100091%2Flsb-kl-f-002_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100091%2Flsb-kl-f-002_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100092/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 3 Paris. gr. 3043 Paris. gr. 2131 Paris. gr. 2131 Upsal. gr. 8: Collection of 14th cent. Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1700"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100092%2Flsb-kl-f-003_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100092%2Flsb-kl-f-003_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100093/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 4: Lexicon to Aristophanes, Clouds"
+        ]
+      },
+      "summary": {
+        "none": [
+          "around 1690"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100093%2Flsb-kl-f-004_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100093%2Flsb-kl-f-004_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100094/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 6a: Apophthegmata philosophorum, ed. Georg Wallin, with handwritten notes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1752"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100094%2Flsb-kl-f-006a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100094%2Flsb-kl-f-006a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100095/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 9: Isaias Gazeus abbas, Asceticon"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1700–1702"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100095%2Flsb-kl-f-009_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100095%2Flsb-kl-f-009_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100096/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 9a: Erik Benzelius, Notes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "ca. 1715–1717"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100096%2Flsb-kl-f-009a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100096%2Flsb-kl-f-009a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100097/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 10: Astronomical Miscellany"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid-15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100097%2Flsb-kl-f-010_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100097%2Flsb-kl-f-010_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100098/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 11: Heraclitus Rhetor, Allegoriae"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1679 (?)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100098%2Flsb-kl-f-011_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100098%2Flsb-kl-f-011_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100099/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 13: Homer, Sentences on the Odysse"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1757"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100099%2Flsb-kl-f-013_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100099%2Flsb-kl-f-013_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100100/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 15: Scholastic exercises and versions"
+        ]
+      },
+      "summary": {
+        "none": [
+          "17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100100%2Flsb-kl-f-015_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100100%2Flsb-kl-f-015_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100101/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 16: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100101%2Flsb-kl-f-016_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100101%2Flsb-kl-f-016_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100102/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 16a: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100102%2Flsb-kl-f-016a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100102%2Flsb-kl-f-016a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100103/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 17: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "latter half of the 15th or early 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100103%2Flsb-kl-f-017_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100103%2Flsb-kl-f-017_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100104/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 18: Schoolbook compilation of maxims"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1684"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100104%2Flsb-kl-f-018_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100104%2Flsb-kl-f-018_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100105/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 19: Nicephorus Phocas imperator III, Liber de re militari"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100105%2Flsb-kl-f-019_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100105%2Flsb-kl-f-019_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100106/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 20: Olympiodorus, Opera in Platonem"
+        ]
+      },
+      "summary": {
+        "none": [
+          "17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100106%2Flsb-kl-f-020_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100106%2Flsb-kl-f-020_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100108/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 25: Theophrastus philosophus, Characteres"
+        ]
+      },
+      "summary": {
+        "none": [
+          "17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100108%2Flsb-kl-f-025_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100108%2Flsb-kl-f-025_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100109/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 26: Thomas Magister, Dictionary of Attic words"
+        ]
+      },
+      "summary": {
+        "none": [
+          "early 17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100109%2Flsb-kl-f-026_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100109%2Flsb-kl-f-026_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100110/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Kl f 29: Meursius, Bibliotheca attica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1633"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100110%2Flsb-kl-f-029_0001_RCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100110%2Flsb-kl-f-029_0001_RCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100111/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Saml 24:19: Homer, Iliad, a fragment"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100111%2Flsb-saml-024-19_0001_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100111%2Flsb-saml-024-19_0001_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100112/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, Saml 24:26: Gregory of Nazianzus, Or. 7, a fragment"
+        ]
+      },
+      "summary": {
+        "none": [
+          "11th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100112%2Flsb-saml-024-26_0001_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100112%2Flsb-saml-024-26_0001_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100113/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 8: Psalter with Odes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid-12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100113%2Flsb-t-008_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100113%2Flsb-t-008_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100114/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 14: Lectionary of NT Readings from Acts and Epistles, from Easter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100114%2Flsb-t-014_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100114%2Flsb-t-014_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100115/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 178: Chrysostom, Homilies"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100115%2Flsb-t-178_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100115%2Flsb-t-178_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100116/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 275: Psalter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100116%2Flsb-t-275_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100116%2Flsb-t-275_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100117/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 276: Prophetologion (fragment)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100117%2Flsb-t-276_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100117%2Flsb-t-276_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100118/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 277: Gospel Lectionary (fragment)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100118%2Flsb-t-277_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100118%2Flsb-t-277_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100119/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 278: Chrysostom and Basil of Cesarea, Liturgia"
+        ]
+      },
+      "summary": {
+        "none": [
+          "17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100119%2Flsb-t-278_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100119%2Flsb-t-278_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100120/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, T 279: Liturgical order of service with notation"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100120%2Flsb-t-279_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100120%2Flsb-t-279_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100121/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Linköping Diocesan Library, W 40: Josef Thun, Poems"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 17th and early 18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100121%2Flsb-w-040_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100121%2Flsb-w-040_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100122/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Lund University Library, Klass. förf. Moeris: Moeris, Lexicon Atticum"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1689"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100122%2Flub-klass-forf-moeris_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100122%2Flub-klass-forf-moeris_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100123/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Lund University Library, Klass. förf. Thomas Magister: Thomas Magister, Dictionary of Attic words"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1696"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100123%2Flub-klass-forf-thomas-magister_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100123%2Flub-klass-forf-thomas-magister_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100124/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Lund University Library, Mh 54: Apophtegmata Patrum, fragment"
+        ]
+      },
+      "summary": {
+        "none": [
+          "11th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100124%2Flub-mh-054_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100124%2Flub-mh-054_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100125/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Lund University Library, Mh 57: Synaxarion, September - February."
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1360"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100125%2Flub-mh-057_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100125%2Flub-mh-057_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100126/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Lund University Library, Teol. Anastasimatarion: Anastasimatarion"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100126%2Flub-teol-anastasimatarion_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100126%2Flub-teol-anastasimatarion_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100996/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 21: Diarium et necrologium fratrum minorum Stockholmensium"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1379–1550"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100996%2Fms-100996_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100996%2Fms-100996_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100995/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 56: Historiae Sanctorum"
+        ]
+      },
+      "summary": {
+        "none": [
+          "early 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100995%2Fms-100995_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100995%2Fms-100995_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100994/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 84: Antiphonarium et Hymnarium Sanctae Birgittae"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th c., 2nd half"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100994%2Fms-100994_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100994%2Fms-100994_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100993/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 129: Officium Beati Henrici"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c., first half"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100993%2Fms-100993_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100993%2Fms-100993_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100501/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 135: Codex Aureus"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 8th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100501%2Fms-100501_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100501%2Fms-100501_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100992/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 140: Hirenei episcopi Lugdunensis Contra omnes hereticos libri V"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100992%2Fms-100992_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100992%2Fms-100992_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100991/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 144: Horologium Olomoucense"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100991%2Fms-100991_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100991%2Fms-100991_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100500/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 148: Codex Gigas"
+        ]
+      },
+      "summary": {
+        "none": [
+          "Around 1204–30"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100500%2Fms-100500_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100500%2Fms-100500_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100990/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, A 164: John Wycliffe, On Time; On Divine Ideas; On Matter and Form; Reply on the Universals; On Universals"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100990%2Fms-100990_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100990%2Fms-100990_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100200/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Acc. 2013/75: Papyrus graecus Holmiensis"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100200%2Fms-100200_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100200%2Fms-100200_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100982/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, B 689b: Decretum Gratiani"
+        ]
+      },
+      "summary": {
+        "none": [
+          "between 1160 and 1180"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100982%2Fms-100982_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100982%2Fms-100982_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100981/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, C 81: Recesses to Gutalagen"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100981%2Fms-100981_0002.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100981%2Fms-100981_0002.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100502/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, D 461b: Editio princeps of Saxo Grammaticus, Gesta danorum (Paris 1514) with annotations by Olaus and Johannes Magnus, including an eyewitness account by Olaus Magnus of the Stockholm bloodbath 1520"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100502%2Fms-100502_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100502%2Fms-100502_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101025/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, D 1262a: Estoria de España"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101025%2Fms-101025_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101025%2Fms-101025_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101021/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Papp. Fol. 39: Orkneyinga saga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1615"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101021%2Fms-101021_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101021%2Fms-101021_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101017/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. 4:o 18: Heiðarvíga saga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1300"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101017%2Fms-101017_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101017%2Fms-101017_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101018/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. 4:o 22: Rímur. Skáld-Helga, Egils, Böðvars"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c., 1st half"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101018%2Fms-101018_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101018%2Fms-101018_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101019/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. 4:o 24: Alexanders saga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101019%2Fms-101019_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101019%2Fms-101019_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101020/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. 4:o 34: Frostathing Law"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c., 2nd half , late 13th c. , ca 1350"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101020%2Fms-101020_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101020%2Fms-101020_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101015/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. Fol. 2: Legends of Saints"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c., 2nd half"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101015%2Fms-101015_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101015%2Fms-101015_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101016/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Isl. Perg. Fol. 6: Barlaams saga ok Jósafats"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101016%2Fms-101016_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101016%2Fms-101016_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101023/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, M 304: Marco Polo, Devisment du Monde"
+        ]
+      },
+      "summary": {
+        "none": [
+          "ca 1350"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101023%2Fms-101023_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101023%2Fms-101023_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101024/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, M 305: Le livre des condicions et coustumes des principalles regions de Orient"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101024%2Fms-101024_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101024%2Fms-101024_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101037/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, Vu 73: Valentin und Namelos"
+        ]
+      },
+      "summary": {
+        "none": [
+          "Ca 1420"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101037%2Fms-101037_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101037%2Fms-101037_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101000/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library of Sweden, X 118: John Arderne, De arte phisicali de cirurgia; Fistula in ano; An Obstetrical Treatise"
+        ]
+      },
+      "summary": {
+        "none": [
+          "ca 1425–35"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-101000%2Fms-101000_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-101000%2Fms-101000_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100083/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, A 792b: Chrysostom, Homilies"
+        ]
+      },
+      "summary": {
+        "none": [
+          "10th or 11th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100083%2Fms-100083_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100083%2Fms-100083_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100084/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, A 792c: Basil of Caesarea, Homilies"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100084%2Fms-100084_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100084%2Fms-100084_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100085/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, A 799: Theodoros Balsamon"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18 July 1582"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100085%2Fms-100085_0000.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100085%2Fms-100085_0000.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100086/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, Acc. 1978/135: Liturgical fragment"
+        ]
+      },
+      "summary": {
+        "none": [
+          "17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100086%2Fms-100086_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100086%2Fms-100086_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100087/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, Va 4a: The Oracles of Leo the Wise"
+        ]
+      },
+      "summary": {
+        "none": [
+          "Mid-16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100087%2Fms-100087_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100087%2Fms-100087_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100088/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, Va 7:1: Paschal Chronicle"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1 October 1573"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100088%2Fkb-va-007-1_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100088%2Fkb-va-007-1_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100089/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "National Library, Va 7:2: Paschal Chronicle"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1 October 1573"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100089%2Fkb-va-007-2_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100089%2Fkb-va-007-2_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100566/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Roggebiblioteket, Rogge Wrangel: Magnus Erikssons landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1475-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100566%2Fms-100566_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100566%2Fms-100566_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100130/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Skokloster Castle Library, Gr. 2: Demosthenes"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100130%2Fskokl-gr-002_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100130%2Fskokl-gr-002_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100128/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Swedish National Archives, E 8996: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c., 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100128%2Fra-e-8996_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100128%2Fra-e-8996_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100129/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Swedish National Archives, E 9014: Aristoteles, Topica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th–14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100129%2Fra-e-9014_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100129%2Fra-e-9014_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100363/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 10: Magnus Erikssons landslag. Västmannalagens kristnobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1375-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100363%2Fuub-b-010_0001_LCI.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100363%2Fuub-b-010_0001_LCI.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100379/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 23: Magnus Erikssons landslag"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1350-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100379%2Fuub-b-023_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100379%2Fuub-b-023_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100382/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 28: Magnus Erikssons landslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1425-1475; tillägg efter 1590"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100382%2Fuub-b-028_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100382%2Fuub-b-028_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100392/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 49: Hälsingelagen"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1325-1375 (efter 1320)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100392%2Fuub-b-049_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100392%2Fuub-b-049_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100394/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 52: Kristoffers landslag. Magnus Erikssons stadslag. Upplandslagens kyrkobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1500, 1597"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100394%2Fuub-b-052_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100394%2Fuub-b-052_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100399/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, B 68: Magnus Erikssons landslag. Östgötalagens kristnobalk"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1430"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100399%2Fuub-b-068_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100399%2Fuub-b-068_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100404/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 4: Teologiskt samlingsband"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/160000/500%2Falvin-record_160516-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/160000/500%2Falvin-record_160516-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100405/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 9: Sermones varii de sanctis"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1442-1464"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100405%2Fms-100405_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100405%2Fms-100405_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100406/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 12: Liber horarum ad usum sororum Ordinis S. Salvatoris [Tidebok för systrarna av Frälsarens orden]"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1450-1520"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100406%2Fms-100406_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100406%2Fms-100406_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100407/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 15: Teologiska texter. Birgittatexter."
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100407%2Fms-100407_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100407%2Fms-100407_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100408/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 19: Predikningar, urkunder, medicinska och komputistiska texter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1500, 1426"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100408%2Fms-100408_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100408%2Fms-100408_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100410/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 22: Böner, uppbyggliga och asketiska texter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100410%2Fms-100410_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100410%2Fms-100410_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100411/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 23: Rimofficier"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100411%2Fms-100411_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100411%2Fms-100411_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100412/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 24: Sermones varii de tempore et de sanctis"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100412%2Fms-100412_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100412%2Fms-100412_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100413/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 25: Regula Salvatoris"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100413%2Fms-100413_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100413%2Fms-100413_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100415/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 31: Urkunder för Birgittinorden"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100415%2Fms-100415_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100415%2Fms-100415_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100416/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 35: Sermones de tempore (pars aestivalis. Svenska)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "sent 1400-tal"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100416%2Fms-100416_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100416%2Fms-100416_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100418/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 46: Vadstena klosters privilegiebok"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100418%2Fms-100418_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100418%2Fms-100418_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100419/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 47: Teologisk sammelhandskrift"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100419%2Fms-100419_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100419%2Fms-100419_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100420/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 50: Teologisk sammelhandskrift"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1450-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100420%2Fms-100420_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100420%2Fms-100420_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100421/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 56: Sermones de tempore (svensk/danska)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100421%2Fms-100421_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100421%2Fms-100421_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100423/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 62: Svenska rimkrönikor (Lilla och Stora rimkrönikan)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1450-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100423%2Fms-100423_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100423%2Fms-100423_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100424/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 68: Bönbok, latin och svenska"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-talets slut, 1500-talets början (möjligen något äldre, jfr Hedström 2009)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100424%2Fms-100424_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100424%2Fms-100424_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100425/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 74: Privilegier och statuter för Vadstena kloster"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1400-1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100425%2Fms-100425_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100425%2Fms-100425_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100437/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 381: Sermones"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1300-1400"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100437%2Fms-100437_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100437%2Fms-100437_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100439/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 389: Sermones varii"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100439%2Fms-100439_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100439%2Fms-100439_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100440/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 390: Teologisk sammelhandskrift"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100440%2Fms-100440_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100440%2Fms-100440_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100441/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 391: Sammelhandskrift"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1366-1400 (1379)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100441%2Fms-100441_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100441%2Fms-100441_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100453/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 476: Cantus sororum, latin och svenska"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100453%2Fms-100453_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100453%2Fms-100453_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100454/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 480: Teologiska texter och böner"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100454%2Fms-100454_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100454%2Fms-100454_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100457/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala universitetsbibliotek, C 831: Staffanslegend och andra svenska texter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1515-1520"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/197000/200/alvin-record_197220-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/197000/200/alvin-record_197220-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101028/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, DG 4-7: Ólafssaga Tryggvasonar. Pamphilus and Galathea. Dialogue between ”Æđra” and ”Hugrecki”. Elissaga ok Rosamundu. Strengleikar eđa Ljóđabók"
+        ]
+      },
+      "summary": {
+        "none": [
+          "ca 1250"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75492-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75492-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101029/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, DG 8: Magnus Lagabøtes landslov. Rettarboetr. Farmannalog. Óláfs saga helga (Legendary)."
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th-16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/54000/100%2Falvin-record_54183-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/54000/100%2Falvin-record_54183-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101030/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, DG 9: Islands logbok"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th to early 17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75497-ATTACHMENT-0002.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75497-ATTACHMENT-0002.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101031/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, DG 10: Grettis saga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75498-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/75000/400%2Falvin-record_75498-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101032/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, DG 11: Prose Edda"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1300"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/54000/100%2Falvin-record_54179-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/54000/100%2Falvin-record_54179-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100131/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Fragm. ms. graec. 1: Fragment of lectionary with passages from the gospel of St. John"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100131%2Fms-100131_0001.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100131%2Fms-100131_0001.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100001/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 1: Catena to the New Testament (Acts, Epistles of Paul, Catholic Epistles)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "second half of the 13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100001%2Fuub-gr-001_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100001%2Fuub-gr-001_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100002/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 2: Chronicon Paschale"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1579"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.manuscripta.se/iipsrv/iipsrv.fcgi?IIIF=100002/uub-gr-002_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.manuscripta.se/iipsrv/iipsrv.fcgi?IIIF=100002/uub-gr-002_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100003/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 3: Macarius/Symeon, Spiritual homilies (Greek and Latin)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "ca 1604–6"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100003%2Fuub-gr-003_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100003%2Fuub-gr-003_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100004/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 4: Tetraevangelium"
+        ]
+      },
+      "summary": {
+        "none": [
+          "11th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100004%2Fuub-gr-004_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100004%2Fuub-gr-004_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100005/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 5: Ascetic Miscellany"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 10th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100005%2Fuub-gr-005_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100005%2Fuub-gr-005_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100006/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 6: Georgius Acropolites, Annales"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100006%2Fuub-gr-006_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100006%2Fuub-gr-006_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100007/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 7: Monastic order of service"
+        ]
+      },
+      "summary": {
+        "none": [
+          "11th–12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100007%2Fuub-gr-007_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100007%2Fuub-gr-007_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100008/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 8: Composite manuscript with miscellaneous contents"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1480s"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100008%2Fuub-gr-008_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100008%2Fuub-gr-008_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100009/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 9: Tetraevangelium"
+        ]
+      },
+      "summary": {
+        "none": [
+          "early 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100009%2Fuub-gr-009_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100009%2Fuub-gr-009_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100010/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 10: Liturgical texts"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1368"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100010%2Fuub-gr-010_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100010%2Fuub-gr-010_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100011/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 11: Acts of the Apostles"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100011%2Fuub-gr-011_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100011%2Fuub-gr-011_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100012/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 12: New Testament (excl. Revelation)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th–13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100012%2Fuub-gr-012_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100012%2Fuub-gr-012_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100013/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 13: Tetraevangelium"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th–13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100013%2Fuub-gr-013_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100013%2Fuub-gr-013_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100014/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 14: Aristides and Lucian, Rhetorical texts"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th or early 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100014%2Fuub-gr-014_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100014%2Fuub-gr-014_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100015/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 15: Euripides, Hecuba, Orestes, Phoenicians; Aphthonios; Phokilides; Theophylact Symocatta; Schedography on Herakles"
+        ]
+      },
+      "summary": {
+        "none": [
+          "first half of the 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100015%2Fuub-gr-015_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100015%2Fuub-gr-015_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100016/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 16: Zonaras, Lexicon"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100016%2Fuub-gr-016_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100016%2Fuub-gr-016_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100017/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 17: Lexicographical manuscript"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th or early 14th c. (before 1313)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100017%2Fuub-gr-017_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100017%2Fuub-gr-017_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100018/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 18: Lexicographical manuscript"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1304/5"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100018%2Fuub-gr-018_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100018%2Fuub-gr-018_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100019/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 19: Fragments of two Metaphrastic Saints’ Lives"
+        ]
+      },
+      "summary": {
+        "none": [
+          "second half of the 11th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100019%2Fuub-gr-019_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100019%2Fuub-gr-019_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100020/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 20: Prophetologion (fragment)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100020%2Fuub-gr-020_0001_001r.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100020%2Fuub-gr-020_0001_001r.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100021/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 21: Poetry miscellany, probably for educational use"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1540s"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100021%2Fuub-gr-021_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100021%2Fuub-gr-021_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100022/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 22: Liturgical text with musical notation (fragment)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th–17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100022%2Fuub-gr-022_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100022%2Fuub-gr-022_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100023/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 23: Liturgical texts with musical notation (fragment)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th–17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100023%2Fuub-gr-023_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100023%2Fuub-gr-023_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100024/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 24: Psalter"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100024%2Fuub-gr-024_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100024%2Fuub-gr-024_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100025/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 25: Epictetus, Enchiridion"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100025%2Fuub-gr-025_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100025%2Fuub-gr-025_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100026/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 26: Works by Aristotle, Sophonias, Hermogenes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100026%2Fuub-gr-026_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100026%2Fuub-gr-026_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100027/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 27: Aelian, On Animals"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1490s"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100027%2Fuub-gr-027_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100027%2Fuub-gr-027_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100028/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 28A: Composite manuscript with mainly epistolographic contents, in two volumes (together with Gr. 28B)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100028%2Fuub-gr-028a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100028%2Fuub-gr-028a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100029/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 28B: Composite manuscript with mainly epistolographic contents, in two volumes (together with Gr. 28A)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100029%2Fuub-gr-028b_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100029%2Fuub-gr-028b_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100030/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 29: Anastasius Sinaita, Quaestiones et responsiones"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1583"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100030%2Fuub-gr-029_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100030%2Fuub-gr-029_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100031/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 30: Meletius, De natura hominis"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th–14th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100031%2Fuub-gr-030_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100031%2Fuub-gr-030_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100032/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 31: Works by Methodius of Patara and Cyril of Alexandria"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100032%2Fuub-gr-031_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100032%2Fuub-gr-031_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100033/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 32: Aesop, fables"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th–16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100033%2Fuub-gr-032_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100033%2Fuub-gr-032_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100034/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 33: Hermias, Commentary on Plato’s Phaedrus"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th or early 17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100034%2Fuub-gr-033_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100034%2Fuub-gr-033_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100035/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 34: Theophilus protospatharius, Commentary on the Aphorisms of Hippocrates"
+        ]
+      },
+      "summary": {
+        "none": [
+          "15th–16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100035%2Fuub-gr-034_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100035%2Fuub-gr-034_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100036/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 35: Leo Sapiens VI, Orneosophium"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100036%2Fuub-gr-035_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100036%2Fuub-gr-035_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100037/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 36: Gelasius Cyzicenus, Historia Ecclesiastica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "early 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100037%2Fuub-gr-036_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100037%2Fuub-gr-036_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100038/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 37: Geographical texts"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1654"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100038%2Fuub-gr-037_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100038%2Fuub-gr-037_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100039/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 38: Iohannes Damascenus, Dialectica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100039%2Fuub-gr-038_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100039%2Fuub-gr-038_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100040/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 39: Theophilus Corydaleus, Commentary on Aristotle’s De anima"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1732"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100040%2Fuub-gr-039_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100040%2Fuub-gr-039_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100041/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 39b: Works by Theophilus Corydaleus"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1732"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100041%2Fuub-gr-039b_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100041%2Fuub-gr-039b_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100042/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 40: Print from 1526; List of patriarchs and bishops"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1526, 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100042%2Fuub-gr-040_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100042%2Fuub-gr-040_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100043/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 41: Chrysostom, Homilies"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100043%2Fuub-gr-041_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100043%2Fuub-gr-041_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100044/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 42: Scholia on the comedies of Aristophanes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1668"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100044%2Fuub-gr-042_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100044%2Fuub-gr-042_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100045/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 43: Mauricius imperator I, Libri duodecim strategicorum"
+        ]
+      },
+      "summary": {
+        "none": [
+          "mid 17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100045%2Fuub-gr-043_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100045%2Fuub-gr-043_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100046/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 44: Poliorcetics"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1565–1570"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100046%2Fuub-gr-044_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100046%2Fuub-gr-044_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100047/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 45: Ptolemaeus, Harmonica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100047%2Fuub-gr-045_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100047%2Fuub-gr-045_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100048/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 46: Johannes Pediasimus, Geometria"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100048%2Fuub-gr-046_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100048%2Fuub-gr-046_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100049/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 47: Commentaries on Plato by Proclus, Theon of Smyrna and Psellus; Theodorus, Sphaerica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th–17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100049%2Fuub-gr-047_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100049%2Fuub-gr-047_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100050/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 48: Mathematical works by Serenus of Antinouplis and Apollonius of Perga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th–17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100050%2Fuub-gr-048_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100050%2Fuub-gr-048_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100051/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 49: Pappus of Alexandria, Collection"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th–17th c. (after 1589)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100051%2Fuub-gr-049_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100051%2Fuub-gr-049_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100052/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 50: Mathematical works by Serenus of Antinouplis and Apollonius of Perga"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th–17th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100052%2Fuub-gr-050_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100052%2Fuub-gr-050_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100053/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 51: Works by Hero of Alexandria and Didymus mathematicus"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100053%2Fuub-gr-051_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100053%2Fuub-gr-051_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100054/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 52: Works of Aristoxenus, Manuel Bryennios, Aristides Quintilianus etc."
+        ]
+      },
+      "summary": {
+        "none": [
+          "1580s"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100054%2Fuub-gr-052_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100054%2Fuub-gr-052_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100055/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 53: Mathematical works"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100055%2Fuub-gr-053_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100055%2Fuub-gr-053_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100056/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 54: Mathematical works"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100056%2Fuub-gr-054_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100056%2Fuub-gr-054_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100057/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 55: Pappus of Alexandria, Collection (Latin translation)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1760–61"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100057%2Fuub-gr-055_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100057%2Fuub-gr-055_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100058/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 56: Mathematical works by Serenus of Antinouplis and Apollonius of Perga (Latin translation)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1762"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100058%2Fuub-gr-056_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100058%2Fuub-gr-056_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100059/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 57: Liturgical notes by Andreas Norrelius"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c. (before 1749)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100059%2Fuub-gr-057_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100059%2Fuub-gr-057_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100060/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 58: Hephaestion grammarian"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1707"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100060%2Fuub-gr-058_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100060%2Fuub-gr-058_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100061/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 59: Julius Pollux, Historia Physica – Scholia to Aristophanes"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100061%2Fuub-gr-059_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100061%2Fuub-gr-059_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100062/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 60: Julius Pollux, Historia Physica"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100062%2Fuub-gr-060_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100062%2Fuub-gr-060_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100063/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 61a: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1691"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100063%2Fuub-gr-061a_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100063%2Fuub-gr-061a_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100064/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 61b: Libanius, Letters (latin translation)"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1691"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100064%2Fuub-gr-061b_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100064%2Fuub-gr-061b_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100065/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 61c: Libanius, Letters"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1726"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100065%2Fuub-gr-061c_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100065%2Fuub-gr-061c_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100066/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 62: Collation of Ups. Gr. 4"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100066%2Fuub-gr-062_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100066%2Fuub-gr-062_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100067/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 63: Collations on New Testament mss in Uppsala and Linköping"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100067%2Fuub-gr-063_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100067%2Fuub-gr-063_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100068/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 64: Damascius, De principiis"
+        ]
+      },
+      "summary": {
+        "none": [
+          "16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100068%2Fuub-gr-064_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100068%2Fuub-gr-064_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100069/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 65: Speech by Israel Nesselius"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1721"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100069%2Fuub-gr-065_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100069%2Fuub-gr-065_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100070/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 67: Lectionary with lessons from the Gospels, Acts and the Epistles"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c.?, 15th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100070%2Fuub-gr-067_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100070%2Fuub-gr-067_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100071/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 68: Gospel lectionary"
+        ]
+      },
+      "summary": {
+        "none": [
+          "12th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100071%2Fuub-gr-068_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100071%2Fuub-gr-068_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100072/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 69: Gospel Lectionary"
+        ]
+      },
+      "summary": {
+        "none": [
+          ", 1289/90"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100072%2Fuub-gr-069_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100072%2Fuub-gr-069_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100073/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 70: Excerpts from Anthologia Palatina"
+        ]
+      },
+      "summary": {
+        "none": [
+          "late 16th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100073%2Fuub-gr-070_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100073%2Fuub-gr-070_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100074/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 71: Aldine edition of Homer’s Iliad with annotations by Philip Melanchthon"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1517 (1530)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100074%2Fuub-gr-071_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100074%2Fuub-gr-071_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100075/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 72: Aldine edition of Homer’s Odyssey with annotations by Philip Melanchthon"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1517 (1530)"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100075%2Fuub-gr-072_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100075%2Fuub-gr-072_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100076/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 73: Gospel Lectionary"
+        ]
+      },
+      "summary": {
+        "none": [
+          "13th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100076%2Fuub-gr-073_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100076%2Fuub-gr-073_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100077/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 74: Menaion for September"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1441"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100077%2Fuub-gr-074_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100077%2Fuub-gr-074_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/100078/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, Gr. 75: Liturgical text with musical notation"
+        ]
+      },
+      "summary": {
+        "none": [
+          "18th c."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.manuscripta.se/iiif/ms-100078%2Fuub-gr-075_0001_LCO.tif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://iiif.manuscripta.se/iiif/ms-100078%2Fuub-gr-075_0001_LCO.tif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.manuscripta.se/iiif/101033/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Uppsala University Library, R 719: Prayer book"
+        ]
+      },
+      "summary": {
+        "none": [
+          "c. 1500"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/111000/600%2Falvin-record_111689-ATTACHMENT-0001.ptif/full/90,/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?IIIF=/mnt/data/alvin/tif/111000/600%2Falvin-record_111689-ATTACHMENT-0001.ptif",
+              "@type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

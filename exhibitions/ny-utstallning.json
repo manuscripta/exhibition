@@ -1,0 +1,715 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json",
+  "type": "Manifest",
+  "behavior": [
+    "slideshow",
+    "template-leeds-exhibition-slideshow"
+  ],
+  "label": {
+    "sv": [
+      "Ny utställning"
+    ],
+    "en": [
+      "New exhibition"
+    ]
+  },
+  "summary": {
+    "sv": [
+      ""
+    ],
+    "en": [
+      ""
+    ]
+  },
+  "items": [
+    {
+      "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre",
+      "type": "Canvas",
+      "height": 5541,
+      "width": 4071,
+      "behavior": [
+        "w-12",
+        "top",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "A 135 - Codex Aureus"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "National Library of Sweden"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "A 135"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Codex Aureus"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "8th century, mid"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Parchment"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "193 ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Latin"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "en": [
+          "Add a description for this slide."
+        ]
+      },
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "National Library of Sweden"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/AnnotationPage/fnabiwdg3v-mwdipkwy",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/annotation-page/96d2alnlcqd-mwdipkre/Annotation/xeqytqm06f-mwdipkvu",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "National Library of Sweden"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "Repository"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "National Library of Sweden"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Shelfmark"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "A 135"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Title"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Codex Aureus"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Date"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "8th century, mid"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Support"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Parchment"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Extent"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "193 ff."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Latin"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre",
+              "partOf": [
+                {
+                  "id": "https://www.manuscripta.se/iiif/100501/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "National Library of Sweden, A 135"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100501/ms-100501_0023.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5541,
+                "width": 4071,
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100501/ms-100501_0023.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1",
+                    "width": 4071,
+                    "height": 5541
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/annotation-page/96d2alnlcqd-mwdipkre/Annotation/p0x06otsji-mwdipkwy",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "National Library of Sweden"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "Repository"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "National Library of Sweden"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Shelfmark"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "A 135"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Title"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Codex Aureus"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Date"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "8th century, mid"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Support"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Parchment"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Extent"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "193 ff."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Latin"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre",
+              "partOf": [
+                {
+                  "id": "https://www.manuscripta.se/iiif/100501/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "National Library of Sweden, A 135"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100501/ms-100501_0020.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5541,
+                "width": 4071,
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100501/ms-100501_0020.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1",
+                    "width": 4071,
+                    "height": 5541
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/AnnotationPage/5ycgn0lraf2-mwdipkwy",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/AnnotationPage/5ycgn0lraf2-mwdipkwy/annotation/rh8owrs0yi-mwdk6tsm",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre#xywh=1791,2008,871,800",
+              "body": {
+                "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/k8cwidteunb-mwdipkre/AnnotationPage/5ycgn0lraf2-mwdipkwy/annotation/rh8owrs0yi-mwdk6tsm/html/en/0nq8q6up9z1-mwdk6tsm",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>Apostel</h2><p>Description</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns",
+      "type": "Canvas",
+      "height": 5335,
+      "width": 4187,
+      "behavior": [
+        "w-12",
+        "h-12"
+      ],
+      "label": {
+        "en": [
+          "A 1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Repository"
+            ]
+          },
+          "value": {
+            "none": [
+              "Kungliga biblioteket"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Shelfmark"
+            ]
+          },
+          "value": {
+            "none": [
+              "A 1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Title"
+            ]
+          },
+          "value": {
+            "none": [
+              "Utläggningar och översättningar av den heliga Skrift (Moseböckerna, Pentateukparafrasen)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "1526"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Support"
+            ]
+          },
+          "value": {
+            "none": [
+              "Parchment"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Extent"
+            ]
+          },
+          "value": {
+            "none": [
+              "258 ff."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Language"
+            ]
+          },
+          "value": {
+            "none": [
+              "Old Swedish"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "sv": [
+          "<p>Utläggningar och översättningar av den heliga Skrift (Moseböckerna, Pentateukparafrasen)</p>"
+        ]
+      },
+      "requiredStatement": {
+        "label": {
+          "none": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "none": [
+            "Kungliga biblioteket"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns/AnnotationPage/thwpqr2xvic-mwdk3ysj",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns/annotation-page/xicz14a70z-mwdk3yns/Annotation/6h96sf8sehp-mwdk3ysj",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "Kungliga biblioteket"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "Repository"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Kungliga biblioteket"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Shelfmark"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "A 1"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Title"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Utläggningar och översättningar av den heliga Skrift (Moseböckerna, Pentateukparafrasen)"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Date"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "1526"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Support"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Parchment"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Extent"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "258 ff."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Old Swedish"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns",
+              "partOf": [
+                {
+                  "id": "https://www.manuscripta.se/iiif/100201/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Kungliga biblioteket, A 1"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://iiif.manuscripta.se/iiif/ms-100201/kb-a-001_0008_004v.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5335,
+                "width": 4187,
+                "service": [
+                  {
+                    "@id": "https://iiif.manuscripta.se/iiif/ms-100201/kb-a-001_0008_004v.tif",
+                    "@type": "ImageService2",
+                    "profile": "level1",
+                    "width": 4187,
+                    "height": 5335
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns/AnnotationPage/t3eaiax453s-mwdk3ysj",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns/AnnotationPage/t3eaiax453s-mwdk3ysj/annotation/v9q4ysuuln-mwdk7ko1",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns#xywh=2029,1535,1007,723",
+              "body": {
+                "id": "https://exhibition.invalid/draft-mwdio57a-n8juat/manifest.json/canvas/pl068phxsp-mwdk3yns/AnnotationPage/t3eaiax453s-mwdk3ysj/annotation/v9q4ysuuln-mwdk7ko1/html/en/1inuhdotgj8-mwdk7ko1",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>Heliga Birgitta</h2><p>Description</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

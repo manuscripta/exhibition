@@ -6,6 +6,9 @@ import { LANGUAGES, strings } from "./i18n.js";
 import { collectionUrl, fetchJson, localised, manifestUrl, plainText, prepareForViewer, slugFromId } from "./iiif.js";
 
 const MODES = ["grid", "slideshow", "presentation"];
+const MANUSCRIPTA = "https://www.manuscripta.se";
+const ACCESSIBILITY_STATEMENT =
+  "https://www.kb.se/om-oss/tillganglighet-pa-kbs-webbplatser-och-digitala-tjanster.html#item_125b5507eb18cedffd1a436125_45b5507eb18cedffd1a43227b";
 const LANGUAGE_KEY = "exhibition-language";
 
 // --- URL state: ?e={slug}&mode={mode}&lang={sv|en} -------------------------
@@ -86,35 +89,50 @@ export function App() {
 
   return (
     <div className={`app app--${location.slug || location.preview ? "exhibition" : "home"}`}>
-      <header className="site-header">
-        <a
-          className="site-header__brand"
-          href={hrefFor({ lang })}
-          onClick={(e) => onLinkClick(e, { slug: null, preview: false, mode: "grid" })}
-        >
-          <span className="site-header__owner">{t.siteOwner}</span>
-          <span className="site-header__title">{t.siteTitle}</span>
-        </a>
-        <nav className="site-header__tools" aria-label={t.modeLabel}>
-          {location.slug || location.preview ? (
-            <div className="mode-switch" role="group" aria-label={t.modeLabel}>
-              {MODES.map((mode) => (
-                <a
-                  key={mode}
-                  href={hrefFor({ ...location, mode, lang })}
-                  aria-current={location.mode === mode ? "page" : undefined}
-                  onClick={(e) => onLinkClick(e, { mode })}
-                >
-                  {t.modes[mode]}
-                </a>
-              ))}
-            </div>
-          ) : null}
-          <button type="button" className="language-toggle" onClick={toggleLanguage} lang={lang === "sv" ? "en" : "sv"}>
-            {t.language}
-          </button>
-        </nav>
-      </header>
+      <nav className="navbar" aria-label={t.mainNavigation}>
+        <div className="navbar__inner">
+          <a className="navbar-brand" href={MANUSCRIPTA}>
+            {t.nav.home}
+          </a>
+          <ul className="navbar-nav">
+            <li>
+              <a href={`${MANUSCRIPTA}/search`}>{t.nav.search}</a>
+            </li>
+            <li className="active">
+              <a
+                href={hrefFor({ lang })}
+                aria-current={location.slug || location.preview ? undefined : "page"}
+                onClick={(e) => onLinkClick(e, { slug: null, preview: false, mode: "grid" })}
+              >
+                {t.siteTitle}
+              </a>
+            </li>
+            <li>
+              <a href={`${MANUSCRIPTA}/contact`}>{t.nav.contact}</a>
+            </li>
+          </ul>
+          <div className="navbar-right">
+            {location.slug || location.preview ? (
+              <div className="btn-group" role="group" aria-label={t.modeLabel}>
+                {MODES.map((mode) => (
+                  <a
+                    key={mode}
+                    className="btn btn-default btn-sm"
+                    href={hrefFor({ ...location, mode, lang })}
+                    aria-current={location.mode === mode ? "page" : undefined}
+                    onClick={(e) => onLinkClick(e, { mode })}
+                  >
+                    {t.modes[mode]}
+                  </a>
+                ))}
+              </div>
+            ) : null}
+            <button type="button" className="navbar-link" onClick={toggleLanguage} lang={lang === "sv" ? "en" : "sv"}>
+              {t.language}
+            </button>
+          </div>
+        </div>
+      </nav>
       <main>
         {location.preview ? (
           <PreviewPage mode={location.mode} lang={lang} t={t} />
@@ -148,11 +166,11 @@ function HomePage({ lang, t, onOpen }) {
   }, [t]);
 
   return (
-    <div className="home">
-      <section className="home__intro">
-        <h1>{t.siteTitle}</h1>
-        <p>{t.intro}</p>
-      </section>
+    <div className="container">
+      <h1 className="page-header">
+        {t.siteOwner} <small>{t.siteTitle}</small>
+      </h1>
+      <p className="lead">{t.intro}</p>
       {state.status === "loading" ? <p className="status">{t.loading}</p> : null}
       {state.status === "error" ? (
         <p className="status status--error" role="alert">
@@ -161,36 +179,55 @@ function HomePage({ lang, t, onOpen }) {
       ) : null}
       {state.status === "ready" && !state.collection.items?.length ? <p className="status">{t.empty}</p> : null}
       {state.status === "ready" ? (
-        <ul className="cards">
+        <ul className="panels">
           {state.collection.items.map((item) => {
             const slug = slugFromId(item.id);
             if (!slug) return null;
             const title = localised(item.label, lang);
             const thumb = item.thumbnail?.[0]?.id;
+            const href = hrefFor({ slug, lang });
+            const open = (e) => {
+              if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+              e.preventDefault();
+              onOpen(slug);
+            };
             return (
-              <li key={item.id} className="card">
-                <a
-                  href={hrefFor({ slug, lang })}
-                  onClick={(e) => {
-                    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
-                    e.preventDefault();
-                    onOpen(slug);
-                  }}
-                >
-                  <div className="card__image">{thumb ? <img src={thumb} alt="" loading="lazy" /> : null}</div>
-                  <div className="card__body">
-                    <h2>{title}</h2>
-                    {item.summary ? <p>{plainText(localised(item.summary, lang))}</p> : null}
-                    <span className="card__cta">{t.open} →</span>
-                  </div>
-                </a>
+              <li key={item.id} className="panel">
+                <div className="panel-heading">
+                  <h2 className="panel-title">
+                    <a href={href} onClick={open}>
+                      {title}
+                    </a>
+                  </h2>
+                </div>
+                <div className="panel-body">
+                  {thumb ? (
+                    <a href={href} onClick={open} tabIndex={-1} aria-hidden="true" className="panel-image">
+                      <img src={thumb} alt="" loading="lazy" />
+                    </a>
+                  ) : null}
+                  {item.summary ? <p>{plainText(localised(item.summary, lang))}</p> : null}
+                  <a href={href} onClick={open}>
+                    {t.open} →
+                  </a>
+                </div>
               </li>
             );
           })}
         </ul>
       ) : null}
-      <footer className="home__footer">
-        <a href={collectionUrl()}>{t.iiif}</a>
+      <footer className="footer">
+        <div className="footer__logo">
+          <img src={`${import.meta.env.BASE_URL}manuscripta/logo_kb.svg`} alt={t.kbLogoAlt} />
+        </div>
+        <ul className="footer__links">
+          <li>
+            <a href={ACCESSIBILITY_STATEMENT}>{t.accessibility}</a>
+          </li>
+          <li>
+            <a href={collectionUrl()}>{t.iiif}</a>
+          </li>
+        </ul>
       </footer>
     </div>
   );

@@ -212,3 +212,17 @@ body {
   padding: 48px 16px;
   text-align: center;
 }
+
+/* --- Workaround: "Search collection" in the IIIF browser ---------------------
+   iiif-browser 2.3.2 opens its search as a react-aria Popover with
+   shouldUpdatePosition: false. Current react-aria keeps a popover hidden
+   (inline opacity 0, clip, mask) until it has computed a position, which then
+   never happens, so the search box is invisible although it has focus. The
+   popover is meant to cover the browser panel (inset-0), so just show it. */
+[data-trigger="DialogTrigger"].inset-0.flex-col {
+  opacity: 1 !important;
+  clip: auto !important;
+  clip-path: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}

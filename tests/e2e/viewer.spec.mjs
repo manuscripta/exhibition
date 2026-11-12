@@ -15,7 +15,7 @@ test.afterEach(async ({ page }) => {
 
 test("start page lists the published exhibitions", async ({ page }) => {
   await page.goto(`${VIEWER}/?lang=sv`);
-  await expect(page.getByRole("heading", { level: 1, name: "Utställningar" })).toBeVisible();
+  await expect(page.getByRole("heading", { level: 1, name: "manuscripta.se Utställningar" })).toBeVisible();
   const card = page.getByRole("link", { name: /Ur manuscriptas samlingar/ });
   await expect(card).toBeVisible();
   await card.click();

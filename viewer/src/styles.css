@@ -1,14 +1,29 @@
+/*
+ * The look of www.manuscripta.se (manuscripta/editor, branch main):
+ * Bootstrap 3.3.7 + bootstrap-theme, starter-template.css and style.css.
+ * Only the parts the exhibition site uses are reproduced here, so the site
+ * does not depend on Bootstrap. Values are taken from those stylesheets.
+ */
+
+/* DejaVu Sans, the content font of manuscripta.se (Bitstream Vera licence). */
+@font-face {
+  font-family: "dejavu_sansbook";
+  src: url("/manuscripta/DejaVuSans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --ink: #1d1b18;
-  --ink-muted: #5c574f;
-  --paper: #f7f4ee;
-  --surface: #ffffff;
-  --rule: #ddd6c8;
-  --accent: #8a2b1d; /* rubric red */
-  --accent-ink: #ffffff;
-  --header-height: 56px;
-  --font-body: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
-  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --text: #333;
+  --text-muted: #777;
+  --link: #337ab7;
+  --link-hover: #23527c;
+  --border: #ddd;
+  --rule: #eee;
+  --navbar-height: 50px;
+  --font-ui: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Bootstrap 3 */
+  --font-content: "dejavu_sansbook", sans-serif; /* #content on manuscripta.se */
   color-scheme: light;
 }
 
@@ -21,239 +36,391 @@
 html,
 body {
   margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--font-body);
+  background: #fff;
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.42857143;
+  padding-top: var(--navbar-height); /* fixed navbar */
 }
 
 a {
-  color: inherit;
+  color: var(--link);
+  text-decoration: none;
 }
 
-:focus-visible {
-  outline: 3px solid var(--accent);
-  outline-offset: 2px;
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
-/* --- Header ------------------------------------------------------------ */
+:focus {
+  outline: 2px ridge #009fff !important;
+}
 
-.site-header {
-  position: sticky;
+/* --- Navbar: Bootstrap 3 navbar-default + bootstrap-theme, fixed top ------- */
+
+.navbar {
+  position: fixed;
   top: 0;
-  z-index: 50;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  min-height: var(--navbar-height);
+  background-color: #f8f8f8;
+  background-image: linear-gradient(to bottom, #fff 0, #f8f8f8 100%);
+  border-bottom: 1px solid #e7e7e7;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+.navbar__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  min-height: var(--header-height);
-  padding: 8px 16px;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--font-ui);
-}
-
-.site-header__brand {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  text-decoration: none;
-  min-width: 0;
-}
-
-.site-header__owner {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.site-header__title {
-  opacity: 0.8;
-}
-
-.site-header__tools {
-  display: flex;
-  align-items: center;
-  gap: 12px;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  min-height: var(--navbar-height);
+  padding: 0 15px 0 0;
 }
 
-.mode-switch {
+.navbar-brand,
+.navbar-nav > li > a,
+.navbar-link {
+  display: block;
+  padding: 15px;
+  line-height: 20px;
+  color: #777;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.navbar-nav {
   display: flex;
-  border: 1px solid rgb(255 255 255 / 0.35);
-  border-radius: 6px;
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.mode-switch a {
-  padding: 6px 12px;
-  font-size: 14px;
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-link:hover {
+  color: #333;
   text-decoration: none;
 }
 
-.mode-switch a + a {
-  border-left: 1px solid rgb(255 255 255 / 0.35);
+/* bootstrap-theme's active item: inset gradient. */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover {
+  color: #555;
+  background-image: linear-gradient(to bottom, #dbdbdb 0, #e2e2e2 100%);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
 }
 
-.mode-switch a[aria-current="page"] {
-  background: var(--paper);
-  color: var(--ink);
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
 }
 
-.language-toggle {
+.navbar-link {
   border: 0;
   background: none;
-  color: inherit;
   font: inherit;
   font-size: 14px;
-  text-decoration: underline;
   cursor: pointer;
-  padding: 6px 0;
 }
 
-/* --- Start page ---------------------------------------------------------- */
+/* --- Buttons: Bootstrap 3 btn-default (bootstrap-theme), btn-group, btn-sm -- */
 
-.home {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 32px 16px 48px;
+.btn-group {
+  display: inline-flex;
 }
 
-.home__intro h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 400;
-  margin: 0 0 8px;
-}
-
-.home__intro p {
-  max-width: 60ch;
-  font-size: 1.125rem;
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
   line-height: 1.5;
-  color: var(--ink-muted);
-  margin: 0 0 32px;
+  border: 1px solid #ccc;
+  color: #333;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+  text-shadow: 0 1px 0 #fff;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075);
+  white-space: nowrap;
 }
 
-.cards {
+.btn:hover,
+.btn:focus {
+  color: #333;
+  background-color: #e0e0e0;
+  background-position: 0 -15px;
+  border-color: #adadad;
+  text-decoration: none;
+}
+
+.btn[aria-current="page"] {
+  background-color: #e0e0e0;
+  background-image: none;
+  border-color: #adadad;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-group > .btn + .btn {
+  margin-left: -1px;
+}
+
+.btn-group > .btn:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.btn-group > .btn:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+/* --- Page: the centred column of manuscripta.se (col-lg-8 col-lg-offset-2) -- */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px 32px;
+  font-family: var(--font-content);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 66.66666667%;
+    padding: 0 15px 32px;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.page-header small {
+  font-size: 65%;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--text-muted);
+}
+
+.lead {
+  max-width: 62ch;
+  margin: 0 0 24px;
+}
+
+/* --- Panels: Bootstrap 3 panel-default + bootstrap-theme -------------------- */
+
+.panels {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 20px 30px;
 }
 
-.card a {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  background: var(--surface);
-  border: 1px solid var(--rule);
+.panel {
+  background: #fff;
+  border: 1px solid var(--border);
   border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  text-decoration: none;
-  transition: box-shadow 150ms ease, transform 150ms ease;
 }
 
-.card a:hover {
-  box-shadow: 0 6px 24px rgb(0 0 0 / 0.12);
-  transform: translateY(-2px);
+.panel-heading {
+  padding: 10px 15px;
+  color: #333;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to bottom, #f5f5f5 0, #e8e8e8 100%);
+  border-bottom: 1px solid var(--border);
 }
 
-.card__image {
+.panel-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.panel-title a {
+  color: inherit;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.panel-body p {
+  margin: 0 0 10px;
+}
+
+.panel-image {
+  display: block;
+  margin: 0 0 12px;
   aspect-ratio: 4 / 3;
-  background: #e9e3d6;
+  background: #f5f5f5;
   overflow: hidden;
 }
 
-.card__image img {
+.panel-image img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
-.card__body {
-  padding: 16px 20px 20px;
+/* --- Footer: starter-template.css ------------------------------------------- */
+
+.footer {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  flex: 1;
+  flex-wrap: wrap;
+  gap: 16px 30px;
+  margin-top: 40px;
+  padding: 1em;
+  background-color: rgb(248, 248, 248);
+  background-image: linear-gradient(rgb(242, 242, 242) 0px, rgb(255, 255, 255) 100%);
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
-.card__body h2 {
+.footer__logo {
+  flex: 0 1 calc(33.333% - 20px);
+  min-width: 120px;
+}
+
+.footer__logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer__links {
   margin: 0;
-  font-size: 1.375rem;
-  font-weight: 400;
-}
-
-.card__body p {
-  margin: 0;
-  color: var(--ink-muted);
-  line-height: 1.45;
-}
-
-.card__cta {
-  margin-top: auto;
-  padding-top: 8px;
-  font-family: var(--font-ui);
-  font-size: 14px;
-  color: var(--accent);
-}
-
-.home__footer {
-  margin-top: 48px;
-  font-family: var(--font-ui);
-  font-size: 14px;
-  color: var(--ink-muted);
+  padding: 0;
+  list-style: none;
 }
 
 .status {
-  font-family: var(--font-ui);
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
-  color: var(--ink-muted);
+  color: var(--text-muted);
 }
 
 .status--error {
-  color: var(--accent);
+  color: #a94442; /* Bootstrap 3 text-danger */
 }
 
-/* --- Viewer -------------------------------------------------------------- */
+/* --- Exhibition viewer ------------------------------------------------------ */
 
 .viewer--fill {
-  height: calc(100dvh - var(--header-height));
+  height: calc(100dvh - var(--navbar-height));
   position: relative;
 }
 
 .viewer--grid {
-  min-height: calc(100dvh - var(--header-height));
+  min-height: calc(100dvh - var(--navbar-height));
 }
 
-@media (max-width: 640px) {
-  .site-header {
-    flex-wrap: wrap;
-  }
-  .site-header__title {
-    display: none;
-  }
-  .mode-switch a {
-    padding: 6px 8px;
-  }
+/* exhibition-viewer's theme variables, set to manuscripta's palette and font.
+   Its defaults are TU Delft's: a yellow title card, black text panels and
+   upper-case monospace titles. */
+.exhibition-viewer {
+  --f-mono-font: var(--font-content);
+  --delft-title-transform: none;
+  --delft-title-card: #f5f5f5;
+  --delft-title-card-text: #333;
+  --delft-info-block: #f8f8f8;
+  --delft-info-block-text: #333;
+  --delft-bg-primary: #fff;
+  --delft-control-bar: #555;
+  --delft-control-bar-border: #444;
+  --delft-annotation-selected: #337ab7;
+  font-family: var(--font-content);
 }
 
-/* --- Draft preview ------------------------------------------------------- */
+.exhibition-viewer .delft-title {
+  font-weight: 500;
+}
 
-.preview-banner {
-  margin: 0;
-  padding: 6px 16px;
-  background: #fde68a;
-  color: var(--ink);
-  font-family: var(--font-ui);
+/* The viewer's full-screen overlays (image popup, table of contents) are
+   attached to <body> with z-index 50, below the fixed navbar (1030). Put
+   them above it so the navbar does not cover their top and close button. */
+.exhibition-viewer.exhibition-viewer-dialog,
+.exhibition-viewer.exhibition-viewer-toc {
+  z-index: 1040;
+}
+
+/* Let the popups (image detail, presentation) fill the whole window instead
+   of leaving a 16px margin (lg:p-4) through which the page shows. */
+.exhibition-viewer.exhibition-viewer-dialog .modal-top {
+  padding: 0;
+}
+
+.exhibition-viewer.exhibition-viewer-dialog .modal-top > .rounded {
+  border-radius: 0;
+}
+
+/* Inside the viewer, links (icons in the control bar, links in texts) take
+   the colour of their surroundings; the link to the manuscript stays blue. */
+.exhibition-viewer a {
+  color: inherit;
+}
+
+/* The table of contents opens on the dark control bar: light text, links
+   and icons there instead of manuscripta's blue links. */
+.exhibition-viewer.exhibition-viewer-toc,
+.exhibition-viewer.exhibition-viewer-toc a,
+.exhibition-viewer.exhibition-viewer-toc button {
+  color: #fff;
+}
+
+.exhibition-viewer.exhibition-viewer-toc a:hover,
+.exhibition-viewer.exhibition-viewer-toc a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* manuscripta.se uses no upper-case text. */
+.exhibition-viewer .uppercase {
+  text-transform: none;
+}
+
+/* Exhibition title at the top of the grid view: h1 and its small label as on
+   manuscripta.se instead of a 36px light title under a 20px label. */
+.exhibition-viewer .text-xl.uppercase {
   font-size: 14px;
-  text-align: center;
+  color: var(--text-muted);
 }
 
-.app--exhibition .preview-banner + .viewer--fill {
-  height: calc(100dvh - var(--header-height) - 31px);
+.exhibition-viewer .text-4xl.font-light {
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 /* exhibition-viewer's stylesheet assumes Tailwind's base reset ("preflight"),
@@ -271,14 +438,11 @@ a {
 /* Link from each slide to the whole manuscript on manuscripta.se. */
 .exhibition-viewer .exhibition-homepage-link {
   margin-top: 1em;
-  font-family: var(--font-ui);
   font-size: 0.9em;
 }
 
 .exhibition-viewer .exhibition-homepage-link a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: var(--link);
 }
 
 /* exhibition-viewer 1.0.14 outlines the region of each tour step with a
@@ -287,4 +451,51 @@ a {
 .exhibition-viewer [style*="dashed red"],
 .exhibition-viewer [style*="solid red"] {
   border-color: transparent !important;
+}
+
+/* --- Draft preview ------------------------------------------------------- */
+
+.preview-banner {
+  margin: 0;
+  padding: 6px 16px;
+  background: #fcf8e3; /* Bootstrap 3 alert-warning */
+  border-bottom: 1px solid #faebcc;
+  color: #8a6d3b;
+  font-size: 14px;
+  text-align: center;
+}
+
+.app--exhibition .preview-banner + .viewer--fill {
+  height: calc(100dvh - var(--navbar-height) - 32px);
+}
+
+/* --- Small screens ---------------------------------------------------------- */
+
+@media (max-width: 767px) {
+  .navbar {
+    position: static;
+  }
+
+  body {
+    padding-top: 0;
+  }
+
+  .navbar__inner {
+    padding: 0 8px 8px 0;
+  }
+
+  .navbar-brand,
+  .navbar-nav > li > a {
+    padding: 15px 10px;
+  }
+
+  .navbar-right {
+    width: 100%;
+    margin-left: 10px;
+    justify-content: space-between;
+  }
+
+  .viewer--fill {
+    height: 85dvh;
+  }
 }

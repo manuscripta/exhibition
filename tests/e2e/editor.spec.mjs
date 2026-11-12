@@ -57,4 +57,13 @@ test("the image browser starts from the list of manuscripta manuscripts", async 
   await page.getByRole("button", { name: "Open IIIF Browser" }).click();
   await page.getByRole("button", { name: /go home/i }).click();
   await expect(page.getByText("Manuscripts on manuscripta.se")).toBeVisible();
+
+  // "Search collection" opens a search box over the list (see the workaround
+  // in editor/src/styles.css); a result opens that manuscript.
+  await page.getByRole("button", { name: /search current collection/i }).click();
+  await page.keyboard.type("Hälsingelagen");
+  const result = page.getByText("Uppsala universitetsbibliotek, B 49: Hälsingelagen");
+  await expect(result).toBeVisible();
+  await result.click();
+  await expect(page.getByText("www.manuscripta.se/iiif/100392/manifest.json")).toBeVisible();
 });

@@ -86,13 +86,15 @@ On hosting:
 
 ### Browse collection for the editor
 
-manuscripta.se does not publish a top-level IIIF Collection yet. Until it does, the editor's image browser starts from `editor/public/manuscripta-collection.json`, which is built from a checkout of the manuscripta data repository:
+manuscripta.se does not publish a top-level IIIF Collection or a list of manuscripts yet. Until it does, the editor's image browser starts from `editor/public/manuscripta-collection.json`.
+
+The script takes the manuscript ids from a snapshot of the manuscripta data (the names of the sub-folders of its `iiif/` folder), or from a text file with one id per line. It then reads each manifest live from www.manuscripta.se for labels, dates and thumbnails, so an old snapshot only affects which ids are tried. Manuscripts that return 404 (unpublished, or without facsimile) are skipped.
 
 ```sh
-node scripts/build-manuscripta-collection.mjs ../data/iiif
+node scripts/build-manuscripta-collection.mjs path/to/manuscripta/data/iiif
 ```
 
-Re-run it when manuscripts are added.
+Re-run it and commit the result when manuscripts are added. The last run listed 1,606 manuscripts.
 
 ## Repository layout
 
@@ -125,9 +127,8 @@ tests/                       vitest unit tests; tests/e2e Playwright tests
 1. **Every painting annotation gets the same id** (`/annotation/.json`) when the images are not on iiif.manuscripta.se (Alvin, data.kb.se). IIIF tools that store resources by id then show the same image for every page, which affects the editor's page picker. `prepare-exhibitions` warns about slides from these manuscripts.
 2. **The v2.1 manifests describe iiif.manuscripta.se as Image API 2**, but it serves Image API 3.
 3. **The licence is lost when manifests are converted to Presentation 3.** The v2 `license` is dropped by the IIIF upgrader, so the editor loses it. The v3 XSLT (`49c801e`) emits `rights` directly.
-4. **100298 (B 59) points at the wrong images.** In the live manifest, canvas "f. 1r" shows a binding image from data.kb.se, so the page numbering looks offset.
-5. **There is no top-level IIIF Collection and no list endpoint**, so the editor relies on `manuscripta-collection.json` here.
-6. **Canvas ids cannot be fetched**; only `manifest.json` can.
+4. **There is no top-level IIIF Collection and no list endpoint**, so the editor relies on `manuscripta-collection.json` here.
+5. **Canvas ids cannot be fetched**; only `manifest.json` can.
 
 **Security.** The viewer renders exhibition texts as HTML, as IIIF allows:
 - Exhibitions are only published through a reviewed commit to `exhibitions/`.

@@ -48,10 +48,12 @@ jobs:
   build:
     needs: test
     runs-on: ubuntu-latest
-    # Public URL and path of the site. Set these as repository variables;
-    # the defaults publish the viewer at /exhibition/ and the editor at /exhibition/editor/.
+    # Public URL and path of the site. The defaults are the GitHub Pages
+    # address; override them with the repository variables EXHIBITION_BASE_URL
+    # and EXHIBITION_SITE_PATH. The base URL becomes part of every published
+    # IIIF id, so change it only when the site moves.
     env:
-      EXHIBITION_BASE_URL: ${{ vars.EXHIBITION_BASE_URL || 'https://www.manuscripta.se/exhibition' }}
+      EXHIBITION_BASE_URL: ${{ vars.EXHIBITION_BASE_URL || 'https://manuscripta.github.io/exhibition' }}
       SITE_PATH: ${{ vars.EXHIBITION_SITE_PATH || '/exhibition/' }}
     steps:
       - uses: actions/checkout@v4
@@ -70,7 +72,25 @@ jobs:
           VITE_BASE="$SITE_PATH" npm run build --prefix viewer
           VITE_BASE="${SITE_PATH}editor/" npm run build --prefix editor
           mkdir -p site && cp -r viewer/dist/. site/ && mkdir -p site/editor && cp -r editor/dist/. site/editor/
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          name: site
           path: site/
+
+  # Publishes the site on GitHub Pages for every push to main.
+  # Requires Settings → Pages → Source: "GitHub Actions".
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

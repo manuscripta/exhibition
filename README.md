@@ -70,6 +70,8 @@ VITE_BASE=/exhibition/editor/ npm run build --prefix editor   # → editor/dist
 
 Serve `viewer/dist` at `/exhibition/` and `editor/dist` at `/exhibition/editor/`.
 
+Every push to `main` is deployed to GitHub Pages by the CI workflow: the viewer at https://manuscripta.github.io/exhibition/ and the editor at https://manuscripta.github.io/exhibition/editor/. To move the site, set the repository variables `EXHIBITION_BASE_URL` and `EXHIBITION_SITE_PATH`. That changes the published IIIF ids.
+
 | Variable | App | Purpose |
 |---|---|---|
 | `EXHIBITION_BASE_URL` | script | Public URL of the viewer; used for IIIF ids. |
